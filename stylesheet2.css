@@ -1,0 +1,311 @@
+body {
+    background:white;
+}
+.container {
+    width: 100%;
+    max-width: 1210px;
+    height: auto;
+    align-content: center;
+}
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background: #f1a436;
+        max-width: 1210px;
+        padding-left: 70px;
+        height: 90px;
+    }
+        .logo {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 300px;
+            height: 85px;
+            background-image: url("../images/ryparis-logo.png");
+            background-repeat: no-repeat;
+        }
+    
+        .nav_bar {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            margin-right: 100px;
+            width: 100%;
+        }
+            a {
+                text-decoration: none;
+                color: black;
+                margin-left: 12px;
+                margin-right: 12px;
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: large;
+            }
+            .mainimage {
+                display: flex;
+                align-items: flex-end;   
+                height: 495px;
+                max-width: 1210px;
+            }
+        
+                .burger {
+                    width: 1210px;
+                    height: 490px;
+                    background-image: url("../images/burger.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: absolute;
+                }
+        
+                .start {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    background-color: white;
+                    padding: 5px;
+                    height: 50px;
+                    width: 600px;
+                    margin-left: 250px;
+                    margin-bottom: 80px;
+                    font-family: 'Lucinda sans', sans-serif;
+                    font-size: 2.7vw; 
+                    font-weight: bolder;
+                }
+
+    .time {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        max-width: 1210px;
+        height: 150px;
+        background-color: lightgray;
+    }
+
+        .time_label {
+            font-family: 'Lucinda sans', sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            max-width: 500px;
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+
+        .line2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 700px;
+            margin-left: 70px;
+            margin-top: 15px;
+        }
+
+            .level {
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
+
+            .prep {
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
+
+            .yeild {
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
+
+        .line3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 366px;
+            margin-left: 70px;
+            margin-top: 15px;
+        }
+
+            .total {
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
+
+            .cook {
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
+
+    .bengal {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 1210px;
+        height: 200px;
+    }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            font-family: 'Lucinda sans', sans-serif;
+            font-size: xx-large;
+            font-weight: bolder;
+            margin-top: 40px;
+        }
+
+            .review {
+                display: flex;
+                justify-content: center;
+                font-family: 'Lucinda sans', sans-serif;
+                margin-top: 10px;  
+            }
+            
+                .checked {
+                    color: rgb(88, 5, 5);
+                    margin-right: 5px;
+                }
+
+            .saverecipe {   
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                height: 50px;
+            }
+
+                .button1 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .button {
+                    margin-top:15px;
+                    background-color: rgb(88, 5, 5);
+                    color: white;
+                    text-align: center;
+                    border-radius: 20px;
+                    font-family: 'Lucinda sans', sans-serif;
+                    font-size: 15px;
+                    cursor: pointer;
+                    padding: 12px 28px;
+                }
+
+            .print {
+                background-image: url(../images/printing.svg);
+                width: 30px;
+                height: 30px;
+                margin-top: 15px;
+            }
+
+        .comment {
+            text-align: center;
+            background-color: lightgray;
+            max-width: 1070px;
+            height: 100px;
+            margin: 0px 70px 0px 70px;
+            padding: 50px 100px 50px 100px;
+            font-family: 'Lucinda sans', sans-serif;
+            font-size: 20px;
+        }
+
+    .ingredients {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 960px;
+    }   
+
+        .ingredients1 {
+            max-width: 350px;
+            height: 300px;
+            margin-left: 70px;
+            margin-top: 30px;
+        }
+
+        .title1 {
+            font-family: 'Lucinda sans', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 22px;
+        }
+         .list1 li {
+             margin: 5px 0px 5px 0px;
+         }
+    
+    .spice {
+        max-width: 350px;
+        height: 300px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+        .title2 {
+            font-family: 'Lucinda sans', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            margin-left: 22px;
+        }
+
+        .list2 li {
+            margin: 5px 0px 5px 0px;
+        }
+
+    .directions {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 70px;
+        margin-top: 30px;
+        max-width: 500px;
+        height: 500px;
+    }
+
+        .title3 {
+        font-family: 'Lucinda sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 22px;
+    }
+
+        .list3 li{
+            margin: 20px 0px 20px 0px;
+        }
+
+        .grill {
+            font-family: 'Lucinda sans', sans-serif;
+            font-weight: bold;
+            margin-bottom: -16px;
+        }
+
+    .footer {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        background: #f1a436;
+        max-width: 1210px;
+        padding-left: 70px;
+        height: 90px;
+    }
+
+        .foo_bar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            width: 400px;
+            height: 30px;
+            margin-left: 500px;
+        }
+
+            .foo_bar a {
+                text-decoration: none;
+                color: black;
+                margin-left: 12px;
+                margin-right: 12px;
+                font-family: 'Lucinda sans', sans-serif;
+                font-size: small;
+            }
